@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.9'
 gem 'jquery-rails'
 gem 'rack', '1.4.5'
+gem 'newrelic_rpm'
 
 group :development, :test do
   gem 'sqlite3'
